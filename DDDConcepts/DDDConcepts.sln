@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consultas", "Consultas", "{8B7A95EF-663D-43B5-8207-DE1C696D34F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagamentos", "Pagamentos", "{4DDB0BE3-403E-4170-8364-8137B13AD59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDConcepts.Consultas.Core", "DDDConcepts.Consultas\DDDConcepts.Consultas.Core.csproj", "{06B738BA-9AC1-453C-AAF8-01CBE4531608}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{55DA191D-F31F-4287-9B10-E3084A33B4EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{A78D2490-B9B2-4347-BF14-3B5B11956C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDConcepts.Pagamentos.Core", "DDDConcepts.Pagamentos\DDDConcepts.Pagamentos.Core.csproj", "{ECF80E67-F946-4DEE-B653-A9FEFA429CC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{E4865702-A382-4A72-A6CB-FEDD9FE3B0C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDConcepts.SharedKernel", "DDDConcepts.SharedKernel\DDDConcepts.SharedKernel.csproj", "{486A4C22-6F60-49DE-98F5-D051950DE83C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06B738BA-9AC1-453C-AAF8-01CBE4531608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B738BA-9AC1-453C-AAF8-01CBE4531608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B738BA-9AC1-453C-AAF8-01CBE4531608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B738BA-9AC1-453C-AAF8-01CBE4531608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF80E67-F946-4DEE-B653-A9FEFA429CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF80E67-F946-4DEE-B653-A9FEFA429CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF80E67-F946-4DEE-B653-A9FEFA429CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF80E67-F946-4DEE-B653-A9FEFA429CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486A4C22-6F60-49DE-98F5-D051950DE83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486A4C22-6F60-49DE-98F5-D051950DE83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486A4C22-6F60-49DE-98F5-D051950DE83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486A4C22-6F60-49DE-98F5-D051950DE83C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06B738BA-9AC1-453C-AAF8-01CBE4531608} = {8B7A95EF-663D-43B5-8207-DE1C696D34F2}
+		{55DA191D-F31F-4287-9B10-E3084A33B4EC} = {8B7A95EF-663D-43B5-8207-DE1C696D34F2}
+		{A78D2490-B9B2-4347-BF14-3B5B11956C27} = {4DDB0BE3-403E-4170-8364-8137B13AD59E}
+		{ECF80E67-F946-4DEE-B653-A9FEFA429CC2} = {4DDB0BE3-403E-4170-8364-8137B13AD59E}
+		{486A4C22-6F60-49DE-98F5-D051950DE83C} = {E4865702-A382-4A72-A6CB-FEDD9FE3B0C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8958390B-7665-449E-8A58-930FC8B5E327}
+	EndGlobalSection
+EndGlobal
